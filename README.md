@@ -1,7 +1,3 @@
---Carpeta EXTRA --
+La verdad la verdad no me alcanzo el tiempo
 
-Sinceramente profe el tiempo no me alcanzo...
-En teoría  ya no vale sin embargo no me podía quedar
-sin agregarle al menos una parte de lo que me faltaba.
-
-Ahí puede encontrar un poco más al menos
+Me habría gustado hacer más:(
