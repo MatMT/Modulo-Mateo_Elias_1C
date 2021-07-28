@@ -1,0 +1,212 @@
+* {
+  font-family: "Questrial", sans-serif;
+  text-align: center;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+
+  background-image: linear-gradient(
+    180deg,
+    #ffa54e 0,
+    #ff8e45 25%,
+    #ff7238 50%,
+    #f2532f 75%,
+    #e8342d 100%
+  );
+}
+
+.header {
+  width: 100%;
+  background-color: #fff;
+}
+
+.title {
+  font-size: 100px;
+  display: inline;
+}
+
+.lista {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+nav {
+  display: inline;
+}
+
+li {
+  padding: 10px;
+  display: inline;
+  list-style: none;
+  background: #da2c70;
+  color: #fff;
+}
+
+ul.hamburger {
+  display: none;
+}
+
+ul {
+  display: inline-block;
+}
+
+label {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+}
+
+input {
+  display: none;
+}
+
+input:checked ~ ul {
+  display: block;
+}
+
+.bio {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.bio > p {
+  color: #fff;
+}
+
+.box {
+  width: 100%;
+}
+
+.music {
+  align-self: center;
+  display: flex;
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+}
+
+.song {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+  padding-bottom: 2%;
+}
+
+h2 {
+  padding-top: 1%;
+  margin: 0;
+  font-size: 8rem;
+  color: #fff;
+}
+
+.artist {
+  padding-bottom: 2%;
+}
+
+.Cuco {
+  padding-top: 4%;
+  font-size: 6rem;
+  color: #0f0252;
+}
+
+.box > .banner {
+  background-image: url(../Songs/Difuminado.webp);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.banner {
+  flex-basis: 20vh;
+  background-image: url(../Songs/Bkg.jpg);
+}
+
+.lirycs {
+  border-radius: 10px;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
+  width: 20%;
+}
+
+p {
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+.footer {
+  background-color: #fff;
+  font-size: 1.5em;
+  padding: 1%;
+}
+
+.flex-container {
+  margin-left: 1.5em;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex-item,
+.flex-item2,
+.flex-item3,
+.flex-item4 {
+  margin-top: 20%;
+  margin-right: 10px;
+  display: flex;
+  font-size: 1.2rem;
+  padding: 12vh 12vh;
+}
+
+.name-list {
+  font-size: 2rem;
+}
+
+.descrip-list {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.flex-item,
+.flex-item2,
+.flex-item3,
+.flex-item4 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.flex-item {
+  background-image: url(../Images/wannabewithu.jpg);
+}
+
+.flex-item2 {
+  background-image: url(../Images/Songs4u.jpg);
+}
+
+.flex-item3 {
+  background-image: url(../Images/Chiquito.jpg);
+}
+
+.flex-item4 {
+  background-image: url(../Images/Para\ mi.jpg);
+}
